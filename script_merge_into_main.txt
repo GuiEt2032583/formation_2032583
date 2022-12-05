@@ -1,0 +1,4 @@
+az devops configure --defaults organization=https://dev.azure.com/formation-1833347/ project="formation-1833347"
+
+az repos pr create --source-branch test --target-branch master -r formation --auto-complete true --delete-source-branch false
+
